@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-dotnet restore
+dotnet restore **/project.json
 dotnet build #**/project.json
