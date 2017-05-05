@@ -3,5 +3,6 @@ dotnet: 1.0.0-preview2-003121
 mono: none
 dist: trusty
 script:
+  - ls
   - dotnet restore
   - dotnet build src/TravisIntegration
