@@ -1,5 +1,6 @@
 language: csharp
 solution: TravisIntegration.sln
+dotnet: 1.0.3
 mono: none
 script:
   - dotnet restore
