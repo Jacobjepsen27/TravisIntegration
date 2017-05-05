@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-dotnet restore
+dotnet restore src/TravisIntegration
 dotnet build src/TravisIntegration
